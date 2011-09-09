@@ -1,0 +1,26 @@
+[ascii art here]
+
+Read is Rocco that runs in your browser.
+
+REQUIRMENTS
+
+1. Pow - http://pow.cx
+2. Rubygems - http://rubygems.org
+
+USAGE
+
+1. Write ~/test.js
+2. Visit http://read.dev/~/test.js
+3. Read!
+
+INSTALL
+
+  gem install read
+
+KNOWN ISSUES
+
+* Chokes if you do this in CoffeeScript:
+
+  #### Third-level markdown heading
+
+  # ### Do this instead
