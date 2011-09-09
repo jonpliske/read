@@ -2,8 +2,8 @@ Gem::Specification.new do |gs|
   gs.name        = "read"
   gs.version     = File.read(File.dirname(__FILE__)+'/VERSION')
   gs.homepage    = "http://github.com/jonpliske/read"
-  gs.description = File.read(File.dirname(__FILE__)+'/README')
   gs.summary     = "Read is Rocco that runs in your browser."
+  gs.description = "Read is Rocco that runs in your browser."
   gs.authors     = ["Myles Byrne", "Jon Pliske"]
 
   gs.post_install_message = <<-END
