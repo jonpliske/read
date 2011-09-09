@@ -4,6 +4,7 @@ end
 
 task :install do
   sh 'gem build read.gemspec'
+  sh 'mkdir -p pkg'
   sh 'mv *.gem pkg/'
   sh "gem install -l #{gemfile}"
 end
