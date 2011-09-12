@@ -11,7 +11,7 @@ Gem::Specification.new do |gs|
 
   Now run this:
 
-    ln -s "`gem environment gemdir`/gems/read-#{gs.version}" ~/.pow/read
+    ln -fs "`gem environment gemdir`/gems/read-#{gs.version}" ~/.pow/read
 
   Sorry.
 
