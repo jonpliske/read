@@ -10,7 +10,7 @@ get '*' do |path|
   # strip preceeding forward slash
   path = path[1..-1] if path[0] == ?/
   path = File.expand_path(path)
-  return 'illiterate' unless File.exists? path
+  return 'illiterate' unless File.file? path
 
   Rocco.new(path).to_html
 end
