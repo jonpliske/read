@@ -1,6 +1,13 @@
+ENV['GEM_PATH'] = 'vendor/ruby/1.8'
 require 'rubygems'
+
 require 'sinatra'
 require 'rocco'
+
+
+get '/_' do
+  $:.join(", ")
+end
 
 get '/' do
   'read!'

@@ -1,0 +1,21 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    mustache (0.99.4)
+    rack (1.3.3)
+    redcarpet (1.17.2)
+    rocco (0.8.2)
+      mustache
+      redcarpet
+    sinatra (1.2.6)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (= 1.0.12)
+  rocco (= 0.8.2)
+  sinatra (= 1.2.6)
