@@ -4,11 +4,6 @@ require 'rubygems'
 require 'sinatra'
 require 'rocco'
 
-
-get '/_' do
-  $:.join(", ")
-end
-
 get '/' do
   'read!'
 end
